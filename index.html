@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <script type="module">
-      import "./dist/index.modern.js"
+      import "./src"
     </script>
   </head>
 
   <body>
-    <my-counter></my-counter>
+    <style>
+      :root {
+        --slider-width: 64px;
+        --slider-height: 175px;
+      }
+
+      input[type=range][orient=vertical] {
+        -webkit-appearance: slider-vertical;
+      }
+
+      vertical-slider,
+      input[type=range][orient=vertical] {
+        width: var(--slider-width);
+        height: var(--slider-height);
+      }
+    </style>
+    <strong>Browser Native:</strong>
+    <a href="https://jsfiddle.net/m0btsq89/5/">https://jsfiddle.net/m0btsq89/5/</a>
+    <br>
+    above
+    <br>
+    before <input class="vertical-slider" type="range" orient="vertical"> after
+    <br>
+    below
+
+    <br><br><br>
+
+    <strong>Web Component based:</strong>
+    <br>
+    above
+    <br>
+    before <vertical-slider></vertical-slider> after
+    <br>
+    below
   </body>
 </html>
