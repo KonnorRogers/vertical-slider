@@ -322,7 +322,7 @@ export class VerticalSlider extends FASTElement {
 
 At last, the fruit of our labor! A cross-browser, consistent vertical slider custom element that uses the browser's built-in `<input type="range">`!
 
-![A cross-browser comparison of the slider](https://imgur.com/X4IuLus)
+![A cross-browser comparison of the slider](https://imgur.com/X4IuLus.png)
 
 And heres a codepen of everything in 1 file.
 
