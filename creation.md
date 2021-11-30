@@ -1,6 +1,6 @@
 ## Vertical Sliders
 
-Horizontal sliders have been around in the form of `<input type="range">` [since IE 10](https://caniuse.com/input-range), but vertical sliders remain challenging. This post describes a cross-browser technique for styling vertical sliders. It then dives into building it out as a fully customizable web component.
+Vertical sliders have been around in the form of `<input type="range">` [since IE 10](https://caniuse.com/input-range), but vertical sliders remain challenging. This post describes a cross-browser technique for styling vertical sliders. It then dives into building it out as a fully customizable web component.
 
 ## Browser Support
 
@@ -330,7 +330,6 @@ And heres a codepen of everything in 1 file.
 
 ## Closing Thoughts
 
-There are even more features we could bake into the component such as a disabled state, tooltip values, and a wide array of other things you can find present in something like [Shoelace's Range Component](https://github.com/shoelace-style/shoelace/blob/next/src/components/range/range.ts). However, those are outside the scope of this post. I'll consider them an exercise for the reader.
+There are even more features we could bake into the component such as a disabled state, tooltip values, and a wide array of other things you can find present in something like [Shoelace's Range Component](https://github.com/shoelace-style/shoelace/blob/next/src/components/range/range.ts). However, those are outside the scope of this post. I'll consider them an exercise for the reader. In addition, if you need a fully customizable slider, you may be better off constructing your own not using an `<input type="range">` purely because the is fairly inflexible. It doesn't accept nested children. Styling is difficult due to browser prefixes, and using custom thumbs is also challenging.
 
 If you'd like to see the `<vertical-slider>` component's full source, [check out the repo on GitHub](https://github.com/ParamagicDev/vertical-slider). This component is not currently released as an NPM package.
-
