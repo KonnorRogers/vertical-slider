@@ -332,4 +332,5 @@ And heres a codepen of everything in 1 file.
 
 There are even more features we could bake into the component such as a disabled state, tooltip values, and a wide array of other things you can find present in something like [Shoelace's Range Component](https://github.com/shoelace-style/shoelace/blob/next/src/components/range/range.ts). However, those are outside the scope of this post. I'll consider them an exercise for the reader.
 
-If you'd like to see the `<vertical-slider>` component's full source, [check out the repo on GitHub](https://github.com/ParamagicDev/vertical-slider).
+If you'd like to see the `<vertical-slider>` component's full source, [check out the repo on GitHub](https://github.com/ParamagicDev/vertical-slider). This component is not currently released as an NPM package.
+
