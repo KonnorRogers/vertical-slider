@@ -219,7 +219,7 @@ export const styles = `
 `
 ```
 
-![Comparison of thumb across browsers](https://imgur.com/XeBHReo)
+![Comparison of thumb across browsers](https://imgur.com/XeBHReo.png)
 
 The thumb now looks like this. Now we'll focus on the track.
 
